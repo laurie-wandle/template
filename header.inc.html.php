@@ -2,6 +2,7 @@
 <header>
 
 
-    <h1>Heading One</h1>
+    <h1><img src="<? echo BASE_URL;?>images/ace_logo.png" alt="Ace Hole in One logo"></h1>
 
 </header>
+
