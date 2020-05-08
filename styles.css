@@ -11,13 +11,11 @@ nav,
 main,
 footer {
     display: block;
-    padding: 1em;
 }
 
 body,
 html {
     height: 100%;
-    margin: 0;
 }
 
 body {
@@ -29,22 +27,25 @@ body {
 }
 
 .wrapper {
-    padding-bottom: 60px;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    overflow: hidden;
 }
 
-header h1 {
-    color: #ff0000;
+header h1  {
     float: left;
-    padding-top: 18px;
-    padding-left: 40px;
+   margin: 0px 0px 0px 20px;
+
+}
+header img {
+    width: 180px;
+    height: 180px;
 }
 
 nav {
-    font-family: Rockwell;
     font-weight: bold;
-    float: right;
-    padding-top: 10px;
-    padding-right: 40px;
+    margin-top: 120px;
 }
 
 nav a {
@@ -53,13 +54,11 @@ nav a {
     font-size: 1.4em;
 }
 
-nav ul {
-    list-style-type: none;
-}
-
 nav ul li {
     display: inline;
     margin-right: 40px;
+
+
 }
 
 nav a:link {
@@ -83,8 +82,10 @@ main h1 {
     font-family: Rockwell;
     color: #ffffff;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 5px;
+    height: 10px;
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 main {
@@ -94,18 +95,21 @@ main {
     margin-bottom: 100px;
     padding-top: 20px;
     padding-bottom: 1px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: Lato;
     color: #ffffff;
-    background-color: #696969;
+    background-color: #000000;
+    overflow-y: hidden;
+    word-wrap: break-word;
 }
 
 .imageplaceholder {
-  max-width: auto;
+  width: 100%;
   height: 500px;
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 20px;
+    padding: 40px 40px 0 40px;
   background-color: #FFFFFF;
 
 }
@@ -115,61 +119,51 @@ main {
     padding-left: 20px;
     padding-right: 20px;
     text-align: center;
-    padding-top: 140px;
     color: #000000;
     
 }
 
-
-
 #boxes {
-     content: "";
-     display: table;
-     clear: both;
-     background-color: #000000;
-     margin-bottom: 20px;
- }
+    content: "";
+    display: table;
+    clear: both;
+    background-color: #000000;;
+    overflow: hidden;
+    padding: 20px;
 
 
+}
 
-#column1 {
-     float: left;
-     background-color: #000000;
-     height: 500px;
-     width: 48%;
-     padding: 20px;
-     font-size: 1em;
-     overflow: auto;
-
- }
+#boxes p {
+    float: left;
+    background-color: #000000;;
+    height: auto;
+    width: 48%;
+    margin: 10px 0 0 10px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+}
 
 #column2 {
     float: right;
     background-color: #ffffff;
-    height: 500px;
-    width: 48%;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 40%;
+    overflow: auto;
 }
 
 .startTimes {
-    float: none;
-    width: auto;
-    height: 500px;
-    background-color: #000000;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    overflow: auto;
-
-}
-
-.startTimes h2 {
-    padding-top: 20px;
+    padding: 20px;
+    background-color: #000000;;
 }
 
 .startTimes p {
     font-size: 1em;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    overflow-y: hidden;
+    word-wrap: break-word;
 }
 
 
@@ -179,16 +173,13 @@ main {
     clear: both;
     background-color: #000000;
     margin-bottom: 40px;
-    overflow: hidden;
 }
 
 .faceBook {
     float: left;
     background-color: #000000;
     height: 500px;
-    width: 48%;
-    overflow: auto;
-
+    width: 50%;
 }
 
 .faceBook h2 {
@@ -197,18 +188,19 @@ main {
 }
 
 .faceBook p {
-    font-size: 1em;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #000000;;
+    padding-left: 10px;
+    overflow-y: hidden;
+    word-wrap: break-word;
 }
 
 .twitter {
     float: right;
-    background-color: #000000;
+    background-color: #000000;;
     height: 500px;
     width: 48%;
-    overflow: auto;
+    overflow: hidden;
+    word-wrap: break-word;
    
 }
 
@@ -219,20 +211,18 @@ main {
 }
 
 .twitter p {
-    font-size: 1em;
-    padding-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #000000;
+    padding-left: 10px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+
 }
 
 
 form {
-    background-color: #696969;
+    background-color: #000000;
     margin-top: 10px;
-    padding-top: 10px;
-    padding-bottom: 80px;
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 10px 20px 80px 20px;
 }
 form p {
     font-size: 1em;
@@ -242,19 +232,18 @@ form p {
 }
 
 footer {
+    padding-bottom: 20px;
     text-align: center;
     color: #FFFFFF;
+
 }
 
-@media only screen and (max-width: 800px) {
-
-    .wrapper {
-        padding-bottom: 10px;
-    }
-
+@media only screen and (max-width: 660px) {
 
     .menu-btn {
-        margin-left: 30px;
+        margin-bottom: 30px;
+        margin-left: 40px;
+
     }
 
     .menu-btn div {
@@ -263,7 +252,7 @@ footer {
         top: 64%;
         padding-right: 8px;
         margin-top: -0.50em;
-        line-height: 1.2;
+        line-height: 1.2em;
         font-size: 20px;
         font-weight: 200;
         vertical-align: middle;
@@ -292,28 +281,54 @@ footer {
 
     }
 
-    main {
-        margin-top: 10px;
+    nav {
+        float: left;
+        line-height: 1.2em;
     }
+
+    nav ul li {
+        margin-top: 10px;
+        margin-right: 0;
+        margin-bottom: 5px;
+        display: block;
+        text-align: left;
 
 }
 
-@media only screen and (max-width: 972px) {
-
-    .wrapper {
-        margin-bottom: 10px;
-        padding-bottom: 20px;
+    main {
+        margin-top: 0;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
+    #boxes p {
+        width: 100%;
+        height: auto;
+    }
+
+    #column2 {
+        display: none;
+    }
+
+    .faceBook p {
+        width: 100%;
+        height: auto;
+    }
+
+
+}
+
+@media only screen and (max-width: 858px) {
 
     header h1 {
         text-align: center;
         float: none;
-        margin-bottom: 5px;
     }
 
-    nav {
-        margin-right: 50px;
+    nav  {
+        margin-top: 0px;
 
     }
+
 }
+
